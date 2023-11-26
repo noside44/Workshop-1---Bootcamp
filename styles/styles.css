@@ -14,6 +14,7 @@
     width: 100%;
     height: 114px;
     background-color: var(--background-color);
+    padding: 0;
 }
 .container-fluid{
     padding: 0;
@@ -25,7 +26,7 @@ a.nav-link{
     font-weight: 400;
     line-height: 2.4rem;
 }
-.btn{
+.navbar__button .btn, .btn{
     width: 160px;
     height: 50px;
     font-family: "poppins";
@@ -33,6 +34,8 @@ a.nav-link{
     line-height: 2.4rem;
     font-weight: 600;
     border-radius: 5px;
+    margin: 0;
+    text-decoration: none;
 }
 .btn:nth-child(1){
     background-color: var(--background-color);
@@ -41,6 +44,98 @@ a.nav-link{
 }
 .btn:nth-child(2){
     background-color: var(--orange-text);
-    border: 1px solid orange;
+    border: none;
     color: var(--background-color);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.24);
+}
+.row>div{
+    padding: 0;
+    border: 0 solid;
+}
+.login-section-col1{
+    width: 40%;
+}
+.login-section-card{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: var(--background-color);
+}
+.login-section .card-title{
+    font-family: "Volkov";
+    font-weight: 700;
+    color: var(--black-text);
+    font-size: 6.4rem;
+    line-height: 70px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.login-section .card-title span{
+    font-size: 6.4rem;
+    color: var(--orange-text);
+}
+.login-section .card-body{
+    padding: 0;
+    height: 650px;
+}
+.login-section .card-text{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--paragraph-text);
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 90px;
+}
+.login-section .card-link{
+    padding: 18px 28px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: var(--orange-text);
+    font-size: 18px;
+    line-height: 32px;
+    border-radius: 5px;
+    border: 1px solid var(--orange-text);
+    text-decoration: none;
+}
+.login-section__image{
+    background-color: var(--background-color);
+}
+.login-section__image .img-fluid{
+    width: 100%;
+}
+.container-explore{
+    background-color: var(--background-color);
+}
+.container-explore .col h6{
+    font-family: "Poppins";
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--black-text);
+}
+.container-explore .col span{
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    background-image: url(../assets/logos/orange-arrow.svg);
+    background-size: cover;
+    margin-bottom: 4px;
+}
+.container-explore .col p{
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--paragraph-text);
+}
+.container-explore .row{
+    background-color: #ffffff;
+    padding: 40px 20px 33px ;
+}
+.container-explore .explore__button{
+    font-size: 1.8rem;
+    background-color: var(--orange-text);
+    border: none;
+    color: var(--background-color);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.24);
 }
