@@ -1,0 +1,46 @@
+:root{
+    --orange-text: #FA7436;
+    --black-text: #222222;
+    --paragraph-text: #666666;
+    --background-color: #fefcfb;
+} 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+.navbar{
+    width: 100%;
+    height: 114px;
+    background-color: var(--background-color);
+}
+.container-fluid{
+    padding: 0;
+}
+a.nav-link{
+    font-size: 1.6rem;
+    color: var(--black-text);
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+.btn{
+    width: 160px;
+    height: 50px;
+    font-family: "poppins";
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.btn:nth-child(1){
+    background-color: var(--background-color);
+    border: 1px solid var(--orange-text);
+    color: var(--orange-text);
+}
+.btn:nth-child(2){
+    background-color: var(--orange-text);
+    border: 1px solid orange;
+    color: var(--background-color);
+}
