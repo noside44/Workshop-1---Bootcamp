@@ -3,6 +3,7 @@
     --black-text: #222222;
     --paragraph-text: #666666;
     --background-color: #fefcfb;
+    --background-color-shadow: #F3F3F5;
 } 
 *{
     box-sizing: border-box;
@@ -138,4 +139,72 @@ a.nav-link{
     border: none;
     color: var(--background-color);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.24);
+}
+.bg-shadow{
+    padding: 10rem;
+    background-color: var(--background-color-shadow);
+}
+.second-tittle{
+    font-size: 5rem;
+    font-family: "Volkov";
+    font-weight: 700;
+    text-align: center;
+}
+.second-tittle span{
+    font-size: 5rem;
+    color: var(--orange-text);
+}
+.secondary-subtext{
+    margin: 1rem  34%;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--paragraph-text);
+    font-size: 1.6rem;
+    line-height: 40px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.card-destiny, .card-destiny img{
+    width: 30rem;
+}
+.card-destiny{
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.24);
+    margin: 0 1.5rem;
+}
+.card-destiny-info{
+    padding: 3rem 1.5rem 0 1.5rem;
+    display: flex;
+}
+.card-destiny-info h6{
+    font-family: "Poppins";
+    font-weight: 500;
+    color: var(--black-text);
+    font-size: 2.8rem;
+    text-align: start;
+}
+.card-destiny-info p{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--black-text);
+    font-size: 1.6rem;
+    text-align: start;
+}
+.locate{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+.locate img{
+    margin-top: -1rem;
+    margin-right: 0.8rem;
+    width: 2rem;
+}
+.card-destiny-info div{
+    width: 50%;
+}
+.other-info{
+    padding: 0.8rem 0 0 0;
+}
+.other-info p{
+    text-align: right;
 }
