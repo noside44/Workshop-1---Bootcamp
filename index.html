@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary container col-8">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container">
         <div class="d-flex flex-row justify-content-start container-fluid">
           <div>
             <img src="./assets/logos/logo-trabook.svg" class="img-fluid me-5" alt="logo-trabook">
@@ -45,12 +45,12 @@
           </div>
         </div>
     </nav>
-    <section class="login-section">
+    <section class="login-section container">
         <div class="container">
             <div class="row">
-                <div class="login-section-col1">
-                    <div class="card login-section-card">
-                        <div class="card-body">
+                <div class="login-section-col1" style="height:auto;">
+                    <div class="card login-section-card" style="height:auto;">
+                        <div class="card-body" style="height:auto;">
                             <h5 class="card-title">
                                 Get started your exciting <span>journey</span> with us.
                             </h5>
@@ -65,31 +65,64 @@
             </div>
         </div>
         <div class="container-explore container">
-            <div class="row col-8 mx-auto">
+            <div class="row col-9 mx-auto">
                 <div class="col">
                     <h6>Location 
                         <span></span>
                     </h6>
                     <p>Where are you going</p>
                 </div>
-                <div class="col">
+                <div class="col ms-5">
                     <h6>Date
                         <span></span>
                     </h6>
                     <p>When you will go</p>
                 </div>
-                <div class="col">
+                <div class="col ms-3">
                     <h6>Guest 
                         <span></span>
                     </h6>
                     <p>Number of guest</p>
                 </div>
-                <div class="col text-end">
+                <div class="col text-center">
                     <button type="button" class="btn btn-link explore__button">Explore Now</button>
                 </div>
             </div>
         </div>
     </section>
+    <section class="necessary-things-container container px-0">
+        <div class="necessary-things-title container text-center">
+            <h3>Things you need <span>to do <img src="./assets/imagenes/planes.png" alt="planes"></span></h3>
+            <p class="mx-auto my-0">We ensure that you’ll embark on a perfectly planned, safe vacation at a price you can afford. </p>
+        </div>
+        <div class="container necessary-things-cards px-0">
+            <div class="row container justify-content-between px-0">
+              <div class="col-3">                   
+                    <img src="./assets/logos/paper-logo.svg" class="card-img-top" alt="paper-logo">
+                    <div class="card-body style="width: 100%;">
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Sign Up</h6>
+                        <p class="card-text">Completes all the work associated with planning and processing</p>
+                    </div>                   
+              </div>
+              <div class="col-3">
+                    <img src="./assets/logos/wallet-logo.svg" class="card-img-top" alt="paper-logo">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Worth of Money</h6>
+                        <p class="card-text">After successful access then book from exclusive deals & pricing</p>
+                    </div>
+              </div>
+              <div class="col-3">
+                    <img src="./assets/logos/ubication-logo.svg" class="card-img-top" alt="paper-logo">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Exciting Travel
+                        </h6>
+                        <p class="card-text">Start and explore a wide range of exciting travel experience</p>
+                    </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
     <section class="container">
       <h2 class="second-tittle">
         Exclusive <span>deals & discounts</span>
@@ -209,5 +242,85 @@
       </div>
       </div>
     </section>
+
+    <footer class="container mt-5">
+        <section class="contact-container container">
+            <div class="container text-start">
+                <div class="row">
+                  <div class="col contact-container-left">
+                      <div>
+                        <img src="./assets/logos/logo-trabook.svg" class="img-fluid me-5 mb-5" alt="logo-trabook">
+                        <p>Book your trip in minute, get full
+                           Control for much longer.</p>
+                        <div class="social-media-logos">
+                            <img src="./assets/logos/facebook-logo.svg" class="img-fluid me-5" alt="logo-trabook">
+                            <img src="./assets/logos/ig-logo.svg" class="img-fluid me-5" alt="logo-trabook">
+                            <img src="./assets/logos/x-logo.svg" class="img-fluid me-5" alt="logo-trabook">
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col contact-container-right d-flex flex-row justify-content-between text-start ms-5">
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                        <h5>Company</h5>
+                        <ul class="list-unstyled mb-0 mt-5">
+                          <li>
+                            <a href="#!" class="text">About</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="text">Careers</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="text">Logistic</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="text">Privacy & Policy</a>
+                          </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                        <h5>Contact</h5>
+                        <ul class="list-unstyled mb-0 mt-5">
+                          <li>
+                            <a href="#!" class="text">Help/FAQ</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="text">Press</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="text">Affiliates</a>
+                          </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                        <h5>More</h5>
+                        <ul class="list-unstyled mb-0 mt-5">
+                          <li>
+                            <a href="#!" class="text">Press Center</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="text">Our Blog</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="text">Low Fare Tips</a>
+                          </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>   
+        </section>
+        <section class="copyright-container">
+            <div class="container text-center mt-5">
+                <div class="row d-flex justify-content-between">
+                  <div class="col">
+                    <p class="text-start">Copyright, Trabook 2022. All rights reserved.</p>
+                  </div>
+                  <div class="col">
+                    <p class="text-end">Terms & Conditions</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>

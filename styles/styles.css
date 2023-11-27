@@ -2,14 +2,17 @@
     --orange-text: #FA7436;
     --black-text: #222222;
     --paragraph-text: #666666;
-    --background-color: #fefcfb;
-    --background-color-shadow: #F3F3F5;
+    --background-color: #f7f8fc;
+    -moz-background-color-secondary: #fefcfb;
 } 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: 62.5%;
+}
+body{
+    background-color: var(--background-color);
 }
 .navbar{
     width: 100%;
@@ -53,8 +56,13 @@ a.nav-link{
     padding: 0;
     border: 0 solid;
 }
+.login-section{
+    background-color: var(--background-color);
+    padding-bottom: 100px;
+}
 .login-section-col1{
     width: 40%;
+    height: auto;
 }
 .login-section-card{
     width: 100%;
@@ -77,13 +85,13 @@ a.nav-link{
 }
 .login-section .card-body{
     padding: 0;
-    height: 650px;
+    height: auto;
 }
 .login-section .card-text{
     font-family: "Poppins";
     font-weight: 400;
     color: var(--paragraph-text);
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 40px;
     margin-bottom: 90px;
 }
@@ -92,7 +100,7 @@ a.nav-link{
     font-family: "Poppins";
     font-weight: 500;
     color: var(--orange-text);
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 32px;
     border-radius: 5px;
     border: 1px solid var(--orange-text);
@@ -106,6 +114,7 @@ a.nav-link{
 }
 .container-explore{
     background-color: var(--background-color);
+    margin-top: 80px;
 }
 .container-explore .col h6{
     font-family: "Poppins";
@@ -131,7 +140,7 @@ a.nav-link{
 }
 .container-explore .row{
     background-color: #ffffff;
-    padding: 40px 20px 33px ;
+    padding: 40px 0px 33px 30px ;
 }
 .container-explore .explore__button{
     font-size: 1.8rem;
@@ -156,6 +165,59 @@ a.nav-link{
 }
 .secondary-subtext{
     margin: 1rem  34%;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--paragraph-text);
+    font-size: 1.6rem;
+    text-align: center;
+}
+.necessary-things-container{
+    background-color: var(--background-color);
+    padding: 100px 0;
+}
+.necessary-things-title h3{
+    padding-bottom: 20px;
+    font-family: "Volkhov";
+    font-weight: 700;
+    color: var(--black-text);
+    font-size: 4.8rem;
+    line-height: 54px;
+}
+.necessary-things-title img{
+    position: absolute;
+    right: 100px;
+}
+.necessary-things-title span{
+    color: var(--orange-text);
+    font-size: 4.8rem;
+}
+.necessary-things-title p{
+    padding-bottom: 64px;
+    width: 38%;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--paragraph-text);
+    font-size: 1.8rem;
+    line-height: 32px;
+}
+.container{
+    background-color: var(--background-color);
+}
+.necessary-things-cards .col-3{
+    width: 370px;
+    height: 278px;
+    border-radius: 8px;
+    padding-right: 0;
+}
+.necessary-things-cards .col-3 h6{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: var(--black-text);
+    font-size: 2.4rem;
+    line-height: 34px;
+}
+.necessary-things-cards .col-3 p{
+    margin-top: 25px;
     font-family: "Poppins";
     font-weight: 400;
     color: var(--paragraph-text);
@@ -207,4 +269,64 @@ a.nav-link{
 }
 .other-info p{
     text-align: right;
+    line-height: 26px;
+}
+.necessary-things-cards .col-3{
+    padding: 35px;
+    background-color: white;
+}
+.necessary-things-cards .col-3 img{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 50px;
+}
+
+/* FOOTER */
+footer{
+    margin-bottom: 70px;
+}
+.contact-container{
+    margin-bottom: 30px;
+}
+.contact-container-left P{
+    font-family: "Poppins";
+    font-weight: 500;
+    color: var(--paragraph-text);
+    font-size: 1.6rem;
+    line-height: 32px;
+}
+.contact-container-right h5{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: var(--black-text);
+    font-size: 2.1rem;
+    line-height: 26px;
+    text-decoration: none;
+}
+.contact-container-right li{
+    width: 200px;
+    margin-bottom: 12px;
+}
+.contact-container-right a{
+    width: 200px;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--paragraph-text);
+    font-size: 1.8rem;
+    line-height: 26px;
+    text-decoration: none;
+}
+.copyright-container{
+    border-top: 1px solid var(--paragraph-text);
+    margin-top: 30px;
+
+}
+.copyright-container p{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--paragraph-text);
+    font-size: 1.6rem;
+    line-height: 26px;
+    text-decoration: none;
 }
