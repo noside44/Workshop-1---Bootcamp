@@ -4,6 +4,7 @@
     --paragraph-text: #666666;
     --background-color: #f7f8fc;
     -moz-background-color-secondary: #fefcfb;
+    --background-price: #FFE7DB;
 } 
 *{
     box-sizing: border-box;
@@ -70,7 +71,7 @@ a.nav-link{
     border: none;
     background-color: var(--background-color);
 }
-.login-section .card-title{
+.login-section .card-title, .login-section .card-title span{
     font-family: "Volkov";
     font-weight: 700;
     color: var(--black-text);
@@ -153,7 +154,7 @@ a.nav-link{
     padding: 10rem;
     background-color: var(--background-color-shadow);
 }
-.second-tittle{
+.second-tittle, .second-tittle span{
     font-size: 5rem;
     font-family: "Volkov";
     font-weight: 700;
@@ -231,9 +232,10 @@ a.nav-link{
 .card-destiny{
     box-shadow: 0px 8px 16px rgba(0,0,0,0.24);
     margin: 0 1.5rem;
+    border-radius: 8px;
 }
 .card-destiny-info{
-    padding: 3rem 1.5rem 0 1.5rem;
+    padding: 3rem 1.5rem 3rem 1.5rem;
     display: flex;
 }
 .card-destiny-info h6{
@@ -243,7 +245,7 @@ a.nav-link{
     font-size: 2.8rem;
     text-align: start;
 }
-.card-destiny-info p{
+.card-destiny-info p, del, span{
     font-family: "Poppins";
     font-weight: 400;
     color: var(--black-text);
@@ -253,7 +255,7 @@ a.nav-link{
 .locate{
     display: flex;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 .locate img{
     margin-top: -1rem;
@@ -264,11 +266,92 @@ a.nav-link{
     width: 50%;
 }
 .other-info{
-    padding: 0.8rem 0 0 0;
+    padding: 1rem 0 0 0;
 }
 .other-info p{
     text-align: right;
     line-height: 26px;
+}
+.text-vac{
+    margin-top: -0.8rem;
+    width: 40%;
+}
+#btn-vac{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 5rem 0;
+}
+#btn-best-vac{
+    display: flex;
+    align-items: center;
+    justify-content: end; 
+    margin-bottom: 3rem;
+}
+.after-price{
+    padding-top: 1rem;
+}
+.other-info span{
+    background-color: var(--background-price);
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    color: var(--orange-text);
+    font-weight: 500;
+}
+.boton-next{
+    padding: 0 1.5rem;
+}
+.best-vac-card .presentation{
+    width: 100%;
+}
+.best-vac-card{
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.24);
+    border-radius: 16px;
+    width: 32%;
+}
+.text-best-vac-card{
+    display: flex;
+    justify-content: center;
+}
+.card-center{
+    margin: 0 2%;
+}
+.sec1-best-vac{
+    margin: 2.5rem 0 2.5rem 2.5rem;
+    width: 50%;
+}
+.sec2-best-vac{
+    margin: 2.5rem 2.5rem 2.5rem 0;
+    width: 50%;
+}
+.arrow-best-vac{
+    display: flex;
+}
+.arrow-best-vac p{
+    padding: 0.8rem 0 0 1.2rem;
+}
+.sec1-best-vac h6{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.sec1-best-vac p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--paragraph-text);
+}
+.sec2-best-vac h6{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--orange-text);
+    text-align: end;
+}
+.sec2-best-vac p{
+    padding-top: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--paragraph-text);
+    text-align: end;
 }
 .necessary-things-cards .col-3{
     padding: 35px;
