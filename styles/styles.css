@@ -176,7 +176,7 @@ a.nav-link{
     background-color: var(--background-color);
     padding: 100px 0;
 }
-.necessary-things-title h3{
+.necessary-things-title h3, .necessary-things-title h3 span{
     padding-bottom: 20px;
     font-family: "Volkhov";
     font-weight: 700;
@@ -188,9 +188,8 @@ a.nav-link{
     position: absolute;
     right: 100px;
 }
-.necessary-things-title span{
+.necessary-things-title h3 span{
     color: var(--orange-text);
-    font-size: 4.8rem;
 }
 .necessary-things-title p{
     padding-bottom: 64px;
