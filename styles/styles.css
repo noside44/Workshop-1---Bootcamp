@@ -186,7 +186,7 @@ a.nav-link{
 }
 .necessary-things-title img{
     position: absolute;
-    right: 100px;
+    right: 500px;
 }
 .necessary-things-title h3 span{
     color: var(--orange-text);
