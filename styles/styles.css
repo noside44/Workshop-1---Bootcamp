@@ -5,6 +5,8 @@
     --background-color: #f7f8fc;
     -moz-background-color-secondary: #fefcfb;
     --background-price: #FFE7DB;
+    --background-colo-comment: #66666614;
+    ;
 } 
 *{
     box-sizing: border-box;
@@ -172,6 +174,135 @@ a.nav-link{
     font-size: 1.6rem;
     text-align: center;
 }
+.sec-about-us{
+    margin: 15rem 0 0 0;
+}
+.second-tittle-specific, .second-tittle-specific span{
+    font-size: 5rem;
+    font-family: "Volkov";
+    font-weight: 700;
+    text-align: start;
+}
+.second-tittle-specific span{
+    font-size: 5rem;
+    color: var(--orange-text);
+}
+.about-us{
+    padding: 0 10rem 0 0;
+}
+.secondary-subtext-specific{
+    margin: 1rem  0;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--paragraph-text);
+    font-size: 1.6rem;
+    text-align: start;
+}
+.comment-about{
+    margin: 4rem 0 0 4rem;
+    padding: 4rem 9rem 2rem 4rem;
+    background-color: white;
+    border-radius: 10px;
+    width: 85%;
+    position: relative;
+    z-index: 1;
+}
+.text-comment-about{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: black;
+    font-size: 2.8rem;
+    line-height: 3rem;
+}
+.about-person{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: black;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+.text-comment-about span{
+    margin-top: -6rem;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--paragraph-text);
+    font-size: 1.6rem;
+}
+.comment-about img{
+    margin: -7rem 0 0 -7rem;
+}
+.comment-about-us{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: black;
+    font-size: 2.8rem;
+    line-height: 3rem;
+}
+.comment-about-us{
+    opacity: 60%;
+    margin: -16rem 0 0 8rem;
+    padding: 4rem 9rem 2rem 4rem;
+    background-color: var(--background-colo-comment);
+    border-radius: 10px;
+    width: 85%;
+    position: relative;
+    z-index: 0;
+}
+.img-decorative{
+    margin: -6rem 0 0 -6.5rem;
+}
+.second-tittle-last, .second-tittle-last span{
+    margin: 5rem 0;
+    font-size: 5rem;
+    font-family: "Volkov";
+    font-weight: 700;
+    text-align: center;
+}
+.second-tittle-last span{
+    font-size: 5rem;
+    color: var(--orange-text);
+}
+.card-last-cont{
+    display: flex;
+    justify-content: center;
+}
+.card-last{
+    width: 270px;
+    border-radius: 8px;
+}
+.card-last{
+    margin: 0 2rem;
+    padding-right: 15%;
+}
+.card-last-public h6{
+    font-family: "Poppins";
+    font-weight: 500;
+    color: var(--black-text);
+    font-size: 1.7rem;
+    line-height: 3rem;
+}
+.card-last-public p{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--paragraph-text);
+    font-size: 1.2rem;
+    line-height: 4rem;
+}
+.point-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.point-cont{
+    margin: 3rem 0;
+}
+.p-gray{
+    width: 2.3rem;
+}
+.p-orange{
+    width: 2.5rem;
+}
 .necessary-things-container{
     background-color: var(--background-color);
     padding: 100px 0;
@@ -286,6 +417,12 @@ a.nav-link{
     align-items: center;
     justify-content: end; 
     margin-bottom: 3rem;
+}
+#btn-about{
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+    margin: 5rem 0;
 }
 .after-price{
     padding-top: 1rem;
